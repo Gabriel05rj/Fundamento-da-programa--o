@@ -40,3 +40,6 @@ custo = c + b
 resultado = f"Total da sua compra eh R${custo} para {itens} itens"
 print(resultado)
 
+# == igual a
+# != não é igual
+
