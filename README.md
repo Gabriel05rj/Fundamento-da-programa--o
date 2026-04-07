@@ -17,7 +17,12 @@
 
 ## Format em pyhon
 
-Estrutura de repetição
+# Estrutura de repetição
 ``#if (se)`` -> verifica se uma condição é true (verdade).Se for, ele executa o código.
 ``elif (senão se)`` -> é usado para testar várias condições.Ele só executa se todas as condições anteriores forem falsas.
 ``else (senão)`` -> Executa o código se a condição for false(falsa).
+
+## Conversão de tipos em Python
+1. int() -> a gente vai incluir qual variável/dado que queremos converter para número inteiro.
+2. float() -> a gente vai incluir qual variável/dado que queremos converter para número decimal.
+3. str() -> a gente vai incluir qual variável/dado que queremos converter para texto.

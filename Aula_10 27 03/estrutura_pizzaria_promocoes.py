@@ -11,7 +11,7 @@ print(f" o sabor escolhido da pizza é {pizza_sabor} o tamanho é {pizza_tamanho
 if dia_semana == "sabado":
     print(f"🍕Pedido aceito com sucesso!")
     print(f"O Refri hoje é por conta da casa!")
-elif dia_semana == "domingo"
+elif dia_semana == "domingo":
     print(f"🍕Pedido aceito com sucesso!")
     print(f"O Frete e o Refri hoje é por conta da casa!")
 elif pizza_sabor == "calabresa" and pizza_tamanho == "média":
