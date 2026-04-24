@@ -1,6 +1,6 @@
 total_compra = 0
 quantidade = 0
-media = preco / quantidade 
+# media = preco / quantidade 
 
 
 print("-----Bem Vindo ao Sistema do Mercado-----")

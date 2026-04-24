@@ -23,7 +23,7 @@ while True: # imprime o while ao menos uma vez
             historico.append(registro) #append() adiciona algo a lista
             print('🆗 Depósito Realizado com Sucesso.')
         else:
-            print(❌ Valor inválido. O depósito deve ser um valor positivo.)
+            print('❌ Valor inválido. O depósito deve ser um valor positivo.')
 
     elif opcao == '2':
         valor_saque = float(input(' ➡️ Digite o valor para Saque: R$'))
