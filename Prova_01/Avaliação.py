@@ -1,9 +1,12 @@
-
 Nomes = []
-while True:
-       quantidade = input("Informe a quantidade de alunos da turma: ")  
-       if quantidade == "0":
-             break
+quantidade = int(input("Informe a quantidade de alunos da turma: "))
+
+i = 0
+# while True:
+while i < quantidade:
+       print(f'\n Cadastro dos alunos {i + 1}')
+    #    if quantidade == "0":
+    #          break
        
        nome = input("Informe seu nome: ")
        nota01 = float(input("Digite sua nota: "))
@@ -59,6 +62,8 @@ while True:
         "situacao": situacao
        }
        Nomes.append(aluno) 
+
+       i += 1
 
 for aluno in Nomes:
     print("\n-----------------------")
