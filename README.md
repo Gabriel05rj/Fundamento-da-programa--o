@@ -14,6 +14,10 @@
 
 ## Métodos em python
 1. print() -> exibe informações no terminal
+2. input() -> capturar uma informação no terminal
+3. lower() -> converte toda a string em minúscula
+4. upper() -> converte toda a string em maiúscula
+5. isdigit() -> verifica se o valor contém número
 
 ## Format em pyhon
 
@@ -49,3 +53,4 @@ while condicao:
 1. int() -> a gente vai incluir qual variável/dado que queremos converter para número inteiro.
 2. float() -> a gente vai incluir qual variável/dado que queremos converter para número decimal.
 3. str() -> a gente vai incluir qual variável/dado que queremos converter para texto.
+
