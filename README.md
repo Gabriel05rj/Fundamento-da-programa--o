@@ -48,9 +48,30 @@ sintax:
 while condicao:
     comandos
 
-
 ## Conversão de tipos em Python
 1. int() -> a gente vai incluir qual variável/dado que queremos converter para número inteiro.
 2. float() -> a gente vai incluir qual variável/dado que queremos converter para número decimal.
 3. str() -> a gente vai incluir qual variável/dado que queremos converter para texto.
 
+## Porcentagem 
+100% -> 1      25% -> 0.25  5% -> 0.05
+50% -> 0.50    15% -> 0.15
+dependendo pode ser escrito assim: (1 - variável/100)
+
+## Funções em Python 
+`def` -> define que uma função será declarada;
+`propriedade` -> variável em memória que irá receber um argumento.
+`argumento` -> [valor] que irá preencher o espaço da propriedade.
+
+## Estuturas de dados
+'lista ou list' -> armazena valorea alvulsos e podem ser heterogênea aou homogênea. Ou seja, podem guardar valores de um mesmo tipo ou de diferentes tipos.
+Ex: list = [] // lista vazia
+list = ["William", 25 , 1.82]
+
+'dict ou dicionário' -> armazena conjunto de valores (chave:valor). As chaves e valores podem ser heterogênea aou homogênea
+1. Para obter o valor de um conjunto em dict, você acessa pela chave
+Ex: dados_usuario = {} // dicionário vazio
+dados_usuario = {"nome": "William", "cpf": 11459882-12, "idade": 25}
+dados_usuario["nome"] -> devolve o valor, que é "William".
+
+* ao trabalhar com listas, dicionarios ou tuplas ao usar a função .get o primeiro elemento está no indice 0. Ao chamar essa funçao para acessar um valor especifico colocamos o parametro e o indice
