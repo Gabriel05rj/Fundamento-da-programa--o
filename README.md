@@ -75,3 +75,21 @@ dados_usuario = {"nome": "William", "cpf": 11459882-12, "idade": 25}
 dados_usuario["nome"] -> devolve o valor, que é "William".
 
 * ao trabalhar com listas, dicionarios ou tuplas ao usar a função .get o primeiro elemento está no indice 0. Ao chamar essa funçao para acessar um valor especifico colocamos o parametro e o indice
+
+## POO 
+1. Em python, todo molde é declarado através de uma classe => [class]
+
+2. Qualquer característica dentro de uma classe é chamada de [atributo] e são declaradas com variáveis
+
+3. As ações dentro de uma classe são chamadas de métodos e são declaradas como [funções]
+
+4. [self] => Significa ele mesmo, o atributo da classe atual
+
+5. [constructor] => É a estrutura de como a classe será "copiada"
+
+## Cases em Python
+
+snake_case: nome_aluno => Nome de variáveis, métodos(funções) e arquivos
+cammelCase: nomeAluno => Nome de variáveis, métodos(funções) *Mais atual*
+PascalCase: NomeAluno => Classes
+kebab-case: nome-aluno => não utilizamos em python
