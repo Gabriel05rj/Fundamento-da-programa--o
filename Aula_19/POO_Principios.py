@@ -6,7 +6,7 @@ class Pessoa:
     #construct0r
     def __init__(self, nome:str, cpf:str):
         self.nome = nome
-        self.cpf = cpf
+        self._cpf = cpf
 
     # Método de apresentação 
     def apresentar(self) -> str:

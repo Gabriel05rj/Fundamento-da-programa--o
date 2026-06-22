@@ -23,12 +23,12 @@ def verificar_situacao(media: float, mostrar: bool = True):
 def contar_situacoes (medias: list) -> tuple:
     aprov = rec = repro = 0
     for m in medias:
-        sit = verificar_situacao(m, False)
-        if "aprovados" in sit:
+        sit = verificar_situacao (m, False)
+        if "Aprovado" in sit:
             aprov += 1
-        elif "recuperação" in sit:
+        elif "Recuperação" in sit:
             rec += 1
-        elif "reprovados" in sit:
+        elif "Reprovado" in sit:
             repro += 1
     return aprov, rec, repro 
 
@@ -55,3 +55,9 @@ def relatorio_turma (nome_turma: str, medias: list) -> None:
         print(f" Recuperação: {rec}")
         print(f" Reprovados: {repro}")
 
+medias_3a = [9.7, 7.2, 5.7, 8.1, 4.3, 6.5, 9.1, 3.8]
+relatorio_turma("3ºA", medias_3a)
+
+print()
+
+relatorio_turma("3ºB", [])
