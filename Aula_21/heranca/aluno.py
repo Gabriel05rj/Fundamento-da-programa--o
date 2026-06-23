@@ -6,9 +6,7 @@ class Aluno(Pessoa): # subclass porque recebe a herança
         self.ano_ingresso = ano_ingresso
         self.matricula = matricula
         self.ativo = self.ativo
-        self.notas = [
-            matematico = []
-        ]
+        self.notas = []
 
 # Meétodos de notas
 def adicionar_nota(self, disciplina: str, nota: float):
